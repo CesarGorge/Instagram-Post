@@ -1,0 +1,54 @@
+body{
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+.post{
+    background-color: white;
+    margin: auto;
+    width: 400px;
+    height: auto;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding:15px;
+}
+
+.primerheader{
+    display: flex;
+}
+
+.comments{
+    padding: 15px;
+}
+
+.usuario{
+    display: flex;
+    flex-direction: column;
+}
+
+a{
+    text-decoration: none;
+    color: black;   
+}
+
+i{
+    font-size: 30px;
+    padding-right: 4px;
+}
+
+#html{
+    font-size: 40px;
+    padding-right: 10px;
+}
+
+#bookmark{
+    float: right;
+    padding-right: 0;
+}
+
+#puntos{
+    padding-right: 0;
+}
